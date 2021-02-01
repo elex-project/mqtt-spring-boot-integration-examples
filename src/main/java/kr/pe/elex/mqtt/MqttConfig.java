@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021. Elex. All Rights Reserved.
- * httsp://www.elex-project.com/
+ * https://www.elex-project.com/
  */
 
 package kr.pe.elex.mqtt;
@@ -28,6 +28,7 @@ public class MqttConfig {
 	private static final String USERNAME = "elex";
 	private static final String PASSWORD = "test";
 	private static final String CLIENT_ID = "i-am-a-server";
+
 	private static final String TOPIC_FILTER = "#";
 	private static final String TOPIC_FILTER_2 = "$SYS/#";
 
